@@ -198,7 +198,7 @@
 
 - Paste the Following Script Over there :-
 
-
+```
    pipeline {
     agent any
     
@@ -243,7 +243,8 @@
             }
          }
        }
-      }
+    }
+```
 
 
  - Click on save or apply.
