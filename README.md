@@ -1,4 +1,8 @@
 # CICD-PIPELINE
+
+**I was given a task to create a CICD Pipeline for a Random Github repo. Here is how I approached to This Assignment**
+
+
 **A. Create an AWS EC2 Instance (server) on which Jenkins will be deployed**
 
 1 . Go to AWS Free tier and sign in to your free tier account (If don't have one your can Create one by cliking on Create New Account).
