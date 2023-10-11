@@ -218,7 +218,6 @@
             }
         }
 
-
         stage('Build') {
             steps {
                 script {
@@ -243,8 +242,8 @@
                 }
             }
          }
-     }
- }
+       }
+      }
 
 
  - Click on save or apply.
