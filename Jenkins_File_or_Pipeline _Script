@@ -1,0 +1,46 @@
+pipeline {
+    agent any
+    
+    environment {
+        // Define environment variables if needed
+        NODE_VERSION = '14'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    sh 'git clone https://github.com/harsh556/react-ssr'
+                    sh 'cp ./react-ssr/* ./ -r'
+                    sh 'rm -rf ./react-ssr'
+                }
+            }
+        }
+
+
+        stage('Build') {
+            steps {
+                script {
+                    // Install Node.js and dependencies
+                    def nodeHome = tool 'NodeJS'
+                    env.PATH = "${nodeHome}/bin:${env.PATH}"
+                    sh 'npm cache clean --force'
+                    sh 'npm install'
+                    
+                    // Build the React application
+                    sh 'npm run build'
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    sh 'npm run dev'
+                    sh 'echo "Deploying to Azure/DigitalOcean/Heroku/AWS/GCP..."'
+                    // Add deployment steps here
+                }
+            }
+        }
+    }
+}
