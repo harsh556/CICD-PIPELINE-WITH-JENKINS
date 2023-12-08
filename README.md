@@ -48,8 +48,10 @@
 
 ![Instance Type](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/38830082-42c9-4b2a-ac5c-aab3d4f74da1)
 
+8 . Configure the Network Setting to use a Security Group with allow all Configuration as This is just a personal project and we want Convinience while accessing it .
 
-8 . Create a New keypair which is basically required to ssh into the server remotely . (AES)
+
+9 . Create a New keypair which is basically required to ssh into the server remotely . (AES)
   
 
 ![Keypair](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/bd2b31b6-8499-401d-b54e-09c48065bc6f)
@@ -61,7 +63,7 @@
 ![Create_keypair](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/26055cc1-aeb5-4c31-bc3a-ea08dfd9306d)
 
 
-9 . Configure the storage Capacity and Launch the Instance
+10 . Configure the storage Capacity and Launch the Instance
 
 
 ![Storage+launch](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/f43e4a71-bcbc-47b5-9349-51ca7a0878b6)
@@ -69,19 +71,19 @@
 
 **You have your server running**
 
-10 . Select Your Server and Click on Connect
+11 . Select Your Server and Click on Connect
 
 
 ![Click On Connect](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/c173d9f1-778e-4e28-baa2-2f6243435593)
 
 
-11 . There are various options for connecting to the server, But we will Click on EC2 Instance Connect . It Opens the server terminal in the Browser itself .
+12 . There are various options for connecting to the server, But we will Click on EC2 Instance Connect . It Opens the server terminal in the Browser itself .
 
 
 ![Click_Instance_Connect](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/7c3d45d9-3e66-41c8-a3c5-4c721b36d36f)
 
 
-12 . Server shell appears 
+13 . Server shell appears 
 
 
 ![ssh](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/c93db808-a148-4d1a-afab-8de2cc1d722d)
