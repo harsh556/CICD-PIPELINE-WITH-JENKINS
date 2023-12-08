@@ -48,10 +48,8 @@
 
 ![Instance Type](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/38830082-42c9-4b2a-ac5c-aab3d4f74da1)
 
-8 . Configure the Network Setting to use a Security Group with allow all Configuration as This is just a personal project and we want Convinience while accessing it .
 
-
-9 . Create a New keypair which is basically required to ssh into the server remotely . (AES)
+8 . Create a New keypair which is basically required to ssh into the server remotely . (AES)
   
 
 ![Keypair](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/bd2b31b6-8499-401d-b54e-09c48065bc6f)
@@ -61,6 +59,9 @@
 
 
 ![Create_keypair](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/26055cc1-aeb5-4c31-bc3a-ea08dfd9306d)
+
+
+9 . Configure the Network Setting to use a Security Group with allow all Configuration as This is just a personal project and we want Convinience while accessing it .
 
 
 10 . Configure the storage Capacity and Launch the Instance
