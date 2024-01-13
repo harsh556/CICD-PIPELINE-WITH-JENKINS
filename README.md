@@ -49,7 +49,7 @@
 ![Instance Type](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/38830082-42c9-4b2a-ac5c-aab3d4f74da1)
 
 
-8 . Create a New keypair which is basically required to ssh into the server remotely . (AES)
+8 . Create a New keypair which is basically required to ssh into the server remotely . 
   
 
 ![Keypair](https://github.com/harsh556/CICD-PIPELINE/assets/114024228/bd2b31b6-8499-401d-b54e-09c48065bc6f)
